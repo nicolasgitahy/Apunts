@@ -96,7 +96,6 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   }
 }
 
-// setup watcher for rebuilds
 async function startWatching(
   ctx: BuildCtx,
   mut: Mutex,
